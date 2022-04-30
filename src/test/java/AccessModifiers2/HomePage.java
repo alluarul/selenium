@@ -11,6 +11,7 @@ public class HomePage {
         driver.get(url);
         WebElement mobileslink= driver.findElement(By.xpath("//a[text()='Mobiles']"));
         boolean c=mobileslink.isDisplayed();
+        System.out.println(c);
         return c;
 
     }
